@@ -41,7 +41,7 @@ try:
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="1234", # باسوورد السيرفر الجديد
+        password="", # باسوورد السيرفر الجديد
         database="Kolomotah_DB",
         port=3306
     )
